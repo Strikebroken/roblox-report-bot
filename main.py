@@ -35,7 +35,7 @@ guilds = len(list(client.guilds))
 
 @client.group(invoke_without_command=True)
 async def help(ctx):
-    em = discord.Embed(title = "Commands", description = "`+r <roblox asset link>` Mass Report (You can report decals, t-shirts, audios and shirts)\n`+favorite <roblox asset link>` Favorite bot an asset")
+    em = discord.Embed(title = "Commands", description = "`+r <roblox asset link>` Mass Report (You can report decals, t-shirts, audios and shirts)")
     em.set_footer(text = "byps.cf · https://github.com/emppu-dev")
     await ctx.send(embed = em)
 
